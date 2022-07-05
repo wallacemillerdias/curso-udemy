@@ -1,37 +1,41 @@
 body{
     font-family: arial, sans-serif;
     background: rgb(10, 0, 0);
-    height: 94vh;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 #principal{
-    background-color: aqua;
-    height: 930px;
-    
+    background-color: #B7B7B7;
+    height: 100vh;
+    max-width: 738px;
+    width: 738px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .hero{
     background-image: url(../imagens/bg-3.jpg);
-    height: 480px;
-    background-position: right center;
+    height: 471px;
+    background-position: right;
     background-size: cover;
-    width: 753px;
-    margin: -100px 350px;
+    width: 738px;
+    
 }
 
 .hero-content{
     /* background-color: darkorange; */
     color: white;
-    margin-top: 150px;
+    margin-top: -15px;
 }
 
 .hero-content h1{
-    background-color: aqua;
     text-transform: uppercase;
-    font-size: 46px;
+    text-indent:35px ;
+    font-size: 55px;
     text-shadow: 3px 3px 2px #333;
-    padding: 150px 10px 0 70px;
-    margin: 0 300px;
+    padding-top: 190px ;
+    margin: 0 170px;
 }
 
 .hero-content p{
@@ -45,19 +49,26 @@ body{
 }
 
 main{
-    background-color: rgb(221, 19, 19);
-    width: 753px;
-    margin: 15px 350px;
-    height: 385px;
+    background-color: #B7B7B7;
+    width: 737px;
+    height:448px;    
 }
 
 .content-section{
-    background-color: rgb(134, 241, 11);
+    background-color: #E5E5E5;
     padding: 15px ;
-    width: 679px;
-    margin: 10px 20px;
+    width: 640px;
+    margin: 15px 45px 0 35px;
     display: flex;
-    /* height: 185px; */
+    height: 180px;
+}
+
+.content-section2{
+    background-color: #121dad;
+    padding: 15px ;
+    width: 640px;
+    margin: 15px 45px 0 35px;
+    height: 150px;
 }
 
 .content-section .card{
@@ -65,36 +76,45 @@ main{
     text-align: center;
     color: white;
     text-transform: uppercase;
-    margin: 10px ;
-    border: 1.5px rgb(233, 100, 100) solid;
-    width: 679px;
-    height: 155px;
+    margin: 5px ;
+    width: 211px;
+    height: 165px;
 }
     
-.content-section .content-header{
-	background-color: rgb(155, 163, 40);
-    width: 679px;
+.content-section2 .content-header{
+	background-color: #921717;
+    width: 640px;
+    height: 150px;
 }
-.content-header h2{
+
+.content-section2 .content-header p{
+	background-color: #7e70ce;
+}
+
+.content-section2>article{
+	background-color: #dfb707;
+    width: 640px;
+    height: 150px;
+}
+
+ .content-header h2{
     margin:0 ;
-    background-color: rgb(238, 238, 238);
-    border: 200px rgb(235, 168, 168);
-    font-size: 30px;
+    height: 50px;
+    background-color: #FFFFFF;
 }
 
 .rodape{
-    height: 80px;
 	color: white;
 	font-size: 14px;
 	text-align: center;
 	text-shadow: 2px 2px 2px black;
 	background: #6b6c68;
     line-height: 80px;
-    width: 753px;
-    margin: 0 500px 0 350px;
+    width: 754px;
+    margin-top: 61.5px;
 }
 #principal .hero ul li{
-    background-color: #ccc;
+    background-color: #A5A4A1;
     padding:  10px ;
     float: right;
     text-transform: uppercase;
@@ -102,5 +122,11 @@ main{
     background-position: right;
     list-style: none;
     border: solid 1.5px rgb(255, 249, 249);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
 }
 
